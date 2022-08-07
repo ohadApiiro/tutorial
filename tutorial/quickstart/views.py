@@ -4,6 +4,11 @@ from rest_framework import permissions
 from tutorial.quickstart.serializers import UserSerializer, GroupSerializer
 
 
+class Foo:
+    def get(self):
+        pass
+
+
 class UserViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
